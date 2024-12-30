@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove margins to ensure the background covers the full screen */
+    padding: 0; /* Remove padding */
+    background-image: url('/static/media/health.png'); /* Replace with your image path */
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: top center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed; /* Keep the background fixed on scroll */
+}
+
+.container {
+    max-width: 400px; /* Adjust container width */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 10px; /* Rounded corners */
+    position: absolute; /* Use absolute positioning */
+    right: 20px; /* Align to the right with some padding */
+    top: 20px; /* Adjust top margin as needed */
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Darker text for labels */
+}
+
+input, select {
+    width: 100%; /* Full width of container */
+    padding: 8px; /* Slightly larger height */
+    margin-bottom: 5px;
+    border-radius: 5px; /* Slightly rounded corners */
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+input[type="number"], select {
+    max-width: 150px; /* Medium width */
+}
+
+button {
+    padding: 10px 15px; /* Larger button size */
+    background-color: #6a1b9a; /* Purple theme color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Larger font size */
+    margin-top: 10px; /* Space above button */
+}
+
+button:hover {
+    background-color: #ab47bc; /* Lighter purple for hover effect */
+}
+
+.results {
+    margin-top: 20px;
+    font-size: 16px; /* Larger font size for results */
+    color: #333; /* Darker text for results */
+}
